@@ -1,0 +1,386 @@
+// 轮播
+.deals_head_div {
+    width: 100%;
+    min-width: 1200px;
+
+    .deals_head_img {
+        width: 100%;
+    }
+}
+
+
+// 开发优势
+.app_daMain_div {
+    width: 100%;
+    min-width: 1200px;
+    text-align: center;
+    padding: 40px 0;
+
+    .app_da_div {
+        width: 100%;
+        margin-top: 60px;
+
+        .app_da_item {
+            position: relative;
+            display: inline-block;
+            width: 33.2%;
+            margin: 0 -2px;
+            color: #FFFFFF;
+            // transform: scale(1.01);
+            // z-index: 1;
+
+            .app_da_item_img_div {
+                position: relative;
+
+                .app_da_item_img {
+                    width: 100%;
+                    height: auto;
+                }
+
+                .app_da_item_img_title {
+                    // display: none;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                    font-size: 38px;
+                    font-weight: bold;
+                    padding: 18px 0;
+                }
+            }
+
+            .app_da_item_bg01 {
+                // background: rgba(51, 97, 140, 0.8);
+                background: #33618C;
+            }
+
+            .app_da_item_bg02 {
+                // background: rgba(27, 165, 193, 0.8);
+                background: #1BA5C1;
+            }
+
+            .app_da_item_bg03 {
+                // background: rgba(119, 118, 157, 0.8);
+                background: #77769D;
+            }
+
+            .app_da_item_modal_div {
+                display: none;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                height: 100%;
+                margin: auto;
+                padding: 0 50px;
+                transform: scale(1.06);
+                vertical-align: middle;
+                z-index: 10;
+
+                .app_da_item_modal_title {
+                    margin: 50px 0 20px 0;
+                    font-size: 32px;
+                    font-weight: bold;
+                    letter-spacing: 6px;
+                }
+
+                .app_da_item_modal_content {
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 38px;
+                    letter-spacing: 3px;
+                }
+
+                .app_da_item_modal_btn {
+                    cursor: pointer;
+                    display: inline-block;
+                    margin: 20px 0 0 0;
+                    padding: 10px 40px;
+                    font-size: 20px;
+                    letter-spacing: 4px;
+                    border: 2px solid rgba(255, 255, 255, 1);
+                    border-radius: 8px;
+                }
+            }
+        }
+
+        .app_da_item:hover {
+            .app_da_item_img_title {
+                display: none;
+            }
+
+            .app_da_item_modal_div {
+                display: block;
+            }
+        }
+    }
+}
+
+// 中间内容部分
+.app_main_div {
+    width: 1200px;
+    text-align: center;
+    margin: auto;
+    padding: 0 0 50px 0;
+
+    // 覆盖行业
+    .app_ca_div {
+        margin: 60px 0 50px 0;
+
+        .app_ca_card_div {
+            position: relative;
+            display: inline-block;
+            width: 24%;
+            margin-bottom: 2px;
+
+            .app_ca_card_img_div {
+                width: 100%;
+
+                .app_ca_card_img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+
+            .app_ca_card_content_div {
+                display: block;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                width: 100%;
+                height: 100%;
+                padding: 0px;
+                margin: 0px;
+                color: #FFFFFF;
+                background: rgba(27, 27, 27, 0.88);
+
+                .app_ca_card_content {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    width: 100%;
+                    height: auto;
+                    font-weight: bold;
+
+                    .app_ca_card_icon {
+                        width: 56px;
+                        height: auto;
+                    }
+
+                    .app_ca_card_title {
+                        font-size: 28px;
+                        letter-spacing: 4px;
+                        margin-top: 12px;
+                    }
+
+                    .app_ca_card_elTitle {
+                        font-size: 22px;
+                        letter-spacing: 2px;
+                        margin: 4px 0 20px 0;
+                    }
+                }
+            }
+        }
+
+        .app_ca_card_div:hover {
+            .app_ca_card_content_div {
+                display: none;
+            }
+        }
+    }
+
+    .cases_options_div {
+        margin: 50px 16px 0 16px;
+        // width: auto;
+        // background: rgba(191, 213, 255, 0.22);
+        background: rgba(191, 213, 255, 0.4);
+
+        a {
+            text-decoration: none;
+        }
+
+        .cases_option {
+            cursor: pointer;
+            display: inline-block;
+            padding: 14px 20px;
+            font-family: SourceHanSansCN-Normal;
+            font-size: 18px;
+            font-weight: 400;
+            letter-spacing: 3px;
+            color: #848282;
+        }
+
+        .cases_option_active {
+            background: #0095E2;
+            color: #FFFFFF;
+        }
+    }
+
+    // 案例墙
+    .index_cases_div {
+        margin-top: 50px;
+        width: 100%;
+        text-align: left;
+
+        .index_case_div {
+            position: relative;
+            display: inline-block;
+            width: 33%;
+            padding: 8px;
+            transition: height 1s;
+
+            .index_case_img_div {
+                width: 100%;
+                border-radius: 4px;
+                box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.6);
+
+                .index_case_img {
+                    width: 100%;
+                    height: auto;
+                    border-radius: 4px;
+                }
+            }
+
+            .index_case_modal_div {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 0;
+                text-align: center;
+                vertical-align: middle;
+                padding: 8px;
+                transition: height 1s;
+
+                .index_case_modal {
+                    padding: 0 8px;
+                    height: 100%;
+                    vertical-align: middle;
+                    color: #FEFEFE;
+                    background: #333333;
+                    font-family: MicrosoftYaHei-Bold;
+                    font-weight: bold;
+                    letter-spacing: 2px;
+                    border-radius: 4px;
+                    overflow: hidden;
+
+                    .index_case_modal_title {
+                        font-size: 18px;
+                        margin: 12px 0 6px 0;
+                    }
+
+                    .index_case_modal_content {
+                        margin-bottom: 6px;
+                        font-size: 12px;
+                        text-indent: 26px;
+                        text-align: left;
+                    }
+
+                    // 模态框链接
+                    .index_case_modal_line {
+                        cursor: pointer;
+                        display: inline-block;
+                        padding: 4px 20px;
+                        border: 1px solid #2CFDB4;
+                        border-radius: 6px;
+                        font-size: 14px;
+                        color: #2CFDB4;
+                        background: transparent;
+                    }
+
+                    // 模态框二维码
+                    .index_case_qr_main_div {
+                        // width: 100%;
+                        height: 50px;
+                        text-align: center;
+
+                        .index_case_qr_div {
+                            display: inline-block;
+                            width: 50px;
+                            height: 100%;
+                            margin: 0 20px;
+
+                            img {
+                                display: inline-block;
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .index_case_div:hover {
+            .index_case_modal_div {
+                height: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1620px) {
+
+    // 开发优势
+    .app_daMain_div {
+        .app_da_div {
+            .app_da_item {
+                .app_da_item_modal_div {
+                    padding: 0 30px;
+
+                    .app_da_item_modal_title {
+                        margin: 20px 0 10px 0;
+                        font-size: 32px;
+                    }
+
+                    .app_da_item_modal_content {
+                        font-size: 20px;
+                        line-height: 32px;
+                    }
+
+                    .app_da_item_modal_btn {
+                        margin: 14px 0 0 0;
+                        padding: 10px 40px;
+                        font-size: 20px;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1300px) {
+
+    // 开发优势
+    .app_daMain_div {
+        .app_da_div {
+            .app_da_item {
+                .app_da_item_modal_div {
+                    padding: 0 30px;
+
+                    .app_da_item_modal_title {
+                        margin: 20px 0 10px 0;
+                        font-size: 24px;
+                        letter-spacing: 6px;
+                    }
+
+                    .app_da_item_modal_content {
+                        font-size: 16px;
+                        line-height: 32px;
+                    }
+
+                    .app_da_item_modal_btn {
+                        margin: 10px 0 0 0;
+                        padding: 4px 30px;
+                        font-size: 16px;
+                    }
+                }
+            }
+
+        }
+    }
+}

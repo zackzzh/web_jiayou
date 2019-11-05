@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="renderer" content="webkit|ie-comp|ie-stand" /> -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>甲由科技-关于我们</title>
+    <link rel="stylesheet" href="./css/about_us/about_us.css">
+
+    <script src="./config/head_modules.js"></script>
+</head>
+
+<body>
+    <!-- 页头 -->
+    <div id="jy_head"></div>
+
+    <div class="anout_main_div">
+        <div class="about_head_div">
+            <div class="about_head_title">About&nbsp;&nbsp;Us</div>
+            <div class="about_head_subtitle">与甲由开启新的生活方式</div>
+        </div>
+        <div class="about_blue_div">
+            <!-- <div class="about_blue_img_div">
+                <img class="about_blue_img" src="./img/about_us/blue_bg.png" alt="blue_bg.png">
+            </div> -->
+            <div class="about_blue_content_div">
+                <div class="about_blue_content_title">
+                    <div>甲由科技以服务造就品牌，</div>
+                    创新赢取未来为核心理念，长期以来技术实力和资本服务得到了客户的高度认可。
+                </div>
+                <div class="about_blue_content_enTitle">
+                    JIAYOU building by technology and service;
+                    Innovation to win the future as the core concept, long -
+                    term technical strengthAnd capital services have been highly recognized by customers.
+                </div>
+                <div class="about_blue_card_main_div">
+                    <div class="about_blue_card_div about_blue_card_blue_div">
+                        <div class="about_blue_card_blue_title about_blue_card_blue_title_left">我们是做</div>
+                        <div class="about_blue_card_blue_title about_blue_card_blue_title_right">什么的?</div>
+                        <div class="about_blue_card_blue_content">
+                            甲由科技（广州甲由信息技术有限公司）是一家专业顶尖的移动互联网技术服务商。
+                        </div>
+                        <div class="about_blue_card_blue_content">
+                            汇集了高级设计师、产品和技术等专业人才甲由科技专业提供品牌策划、运营推广、移动服务（微官网、微商城、小程序、APP）、软件产品（企业网站、电商平台、企业管理系统）、物联网开发、系统运营托管、SEO搜索优化等服务。
+                        </div>
+                        <div class="about_blue_card_blue_content">
+                            甲由科技始终致力为客户打通线上线下运营推广各种环节，以最低的营销成本实现客户最大的转化率。
+                        </div>
+                    </div>
+                    <div class="about_blue_card_div about_blue_card_black_div">
+                        <div class="about_blue_card_blue_title about_blue_card_blue_title_left">我们具备</div>
+                        <div class="about_blue_card_blue_title about_blue_card_blue_title_right">什么优势?</div>
+                        <!-- <div>成熟完善的产品，支持多种经营模式</div>
+                            <div>积极向上的团队，是我们开拓创新之源</div>
+                            <div>创新的理念与技术，保障良好的应用体验</div>
+                            <div>为不同区域客户提供更多的本地化服务</div>
+                            <div>优秀的伙伴联盟，支撑我们稳健的发展</div> -->
+                        <div class="about_blue_card_blue_content">
+                            甲由科技致力于互联网技术开发外包服务行业8年，凭借精湛的技术，贴心的服务，为国内众多企事业机构及个人提供了优良服务，并赢得了客户一致的好评和尊敬。公司拥有技术过硬的团队，完善的质量保障体系，服务范围遍布全球，服务行业涉及广泛。
+                        </div>
+                        <div class="about_blue_card_blue_content">
+                            历经八年经验积累和沉淀，甲由科技不仅收获了先进的管理模式、完备的服务体系，还形成了高效的研发流程，打磨出了优秀的开发团队。凭借全面的企业理念和精尖的技术人才，无数客户最终选择了与甲由科技并肩同行。
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about_content_main_div">
+            <!-- 方案经验 -->
+            <div class="about_common_title_div">
+                <div class="about_common_title_head">Experienced</div>
+                <div class="about_common_title">集千万方案经验</div>
+                <div class="about_common_enTitle">COLLECT TEN MILLION</div>
+                <div class="about_common_enTitle">PROGRAM EXPERIENCE</div>
+                <div class="about_common_line_div"></div>
+            </div>
+            <div class="about_experience_div">
+                <div class="about_experience_items">
+                    <div class="about_experience_title">8+</div>
+                    <div class="about_experience_subtitle">8年专注互联网服务</div>
+                    <div class="about_experience_subtitle">丰富的经验保障项目质量</div>
+                </div>
+                <!-- <div class="about_experience_items">
+                    <div class="about_experience_title">12+</div>
+                    <div class="about_experience_subtitle">12大主营产品</div>
+                    <div class="about_experience_subtitle">提供各行业解决方案</div>
+                </div> -->
+                <div class="about_experience_items">
+                    <div class="about_experience_title">20000+</div>
+                    <div class="about_experience_subtitle">20000+家客户长期维护真诚合作</div>
+                    <div class="about_experience_subtitle">客户为本，服务至上</div>
+                </div>
+                <div class="about_experience_items">
+                    <div class="about_experience_title">100%</div>
+                    <div class="about_experience_subtitle">100%完美交付率</div>
+                    <div class="about_experience_subtitle">源代码交付，支持二次开发</div>
+                </div>
+            </div>
+            <!-- 公司奖项 -->
+            <div class="about_common_title_div">
+                <div class="about_common_title_head">Enterprise style</div>
+                <div class="about_common_title">公司奖项</div>
+                <div class="about_common_enTitle">THE COMPANY AWARDS</div>
+                <div class="about_common_line_div"></div>
+            </div>
+            <div class="about_awards_main_div">
+                <div class="about_awards_title_div">
+                    <div class="about_awards_title">
+                        甲由团队所能取得每份微小成就
+                    </div>
+                    <div class="about_awards_subtitle">
+                        Each small achievement the team can achieve
+                    </div>
+                </div>
+                <div class="about_awards_title_div">
+                    <div class="about_awards_title">
+                        有赖于每位团队成员的艰苦奋斗
+                    </div>
+                    <div class="about_awards_subtitle">
+                        Depends on each team member The arduous struggle
+                    </div>
+                </div>
+            </div>
+            <div class="about_awards_img_div">
+                <img class="about_awards_img01" src="./img/about_us/award01.png" alt="award01.png">
+                <img class="about_awards_img02" src="./img/about_us/award02.png" alt="award02.png">
+                <img class="about_awards_img03" src="./img/about_us/award03.png" alt="award03.png">
+            </div>
+        </div>
+        <!-- 联系我们 -->
+        <div class="about_contact_mian_div">
+            <div class="about_common_title_div about_common_title_div_contact">
+                <div class="about_common_title_head about_common_title_head_contact">Enterprise style</div>
+                <div class="about_common_title about_common_title_contact">联系我们</div>
+                <div class="about_common_line_div about_common_line_div_contact"></div>
+            </div>
+            <div class="about_contact_col_line"></div>
+            <div class="about_contact_div">
+                <div class="about_contact_icon_div">
+                    <img class="about_contact_icon" src="./img/about_us/contact_icon.png" alt="">
+                    <div class="about_contact_icon_title">广州总部</div>
+                </div>
+                <div class="about_contact_content_div">
+                    <div class="about_contact_phone">开发热线: 020-81807466</div>
+                    <div class="about_contact_adress">广东省广州市荔湾信义路24号</div>
+                    <div class="about_contact_adress">七喜创意园4栋241单元</div>
+                </div>
+            </div>
+            <div class="about_contact_map_div">
+                <img class="about_contact_map_img" src="./img/about_us/map.png" alt="map.png">
+                <div class="about_contact_map_blue_title">There's so much we can do for you</div>
+                <div class="about_contact_map_title">点击下方按钮</div>
+                <div class="about_contact_map_title">十分钟内给出免费咨询方案</div>
+                <div class="about_contact_map_elTitle_div">
+                    <div class="about_contact_map_elTitle">Click the bottom button</div>
+                    <div class="about_contact_map_elTitle">Give free advice within 10 minutes</div>
+                </div>
+                <a class="about_contact_map_btn" href="http://dut.zoosnet.net/LR/Chatpre.aspx?id=DUT85908063&lng=cn&r=PC"
+                    target="_blank">免费获取咨询方案</a>
+            </div>
+
+            <!-- 合作伙伴 -->
+            <div class="about_common_title_div">
+                <div class="about_common_title_head">King of the competition</div>
+                <div class="about_common_title">合作伙伴</div>
+                <div class="about_common_enTitle">COOPERATIVE CLIENT</div>
+                <div class="about_common_line_div"></div>
+            </div>
+            <div class="about_awards_main_div">
+                <div class="about_awards_title_div">
+                    <div class="about_awards_title">
+                        十年历程的网络公司
+                    </div>
+                    <div class="about_awards_subtitle">
+                        Ten years of dot-com
+                    </div>
+                </div>
+                <div class="about_awards_title_div">
+                    <div class="about_awards_title">
+                        有经验、有态度
+                    </div>
+                    <div class="about_awards_subtitle">
+                        Experience and attitude
+                    </div>
+                </div>
+            </div>
+            <div class="about_partner_div">
+                <img class="about_partner_img" src="./img/about_us/partner01.png" alt="">
+                <img class="about_partner_img" src="./img/about_us/partner02.png" alt="">
+                <img class="about_partner_img" src="./img/about_us/partner03.png" alt="">
+                <img class="about_partner_img" src="./img/about_us/partner04.png" alt="">
+                <img class="about_partner_img" src="./img/about_us/partner05.png" alt="">
+                <img class="about_partner_img" src="./img/about_us/partner06.png" alt="">
+                <img class="about_partner_img" src="./img/about_us/partner07.png" alt="">
+            </div>
+        </div>
+
+    </div>
+
+    <!-- 页脚 -->
+    <div id="jy_footer"></div>
+
+    <script src="./config/body_modules.js"></script>
+</body>
+
+</html>

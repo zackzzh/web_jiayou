@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="renderer" content="webkit|ie-comp|ie-stand" /> -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>甲由科技-行业动态</title>
+    <link rel="stylesheet" href="./css/new_info/new_info.css">
+
+    <script src="./config/head_modules.js"></script>
+</head>
+
+<body>
+    <!-- 页头 -->
+    <div id="jy_head"></div>
+
+    <div class="cases_head_div">
+        <img class="cases_head_img" src="./img/news/head.png" alt="head.png">
+        <div class="cases_head_title">
+            <a class="cases_head_title_span" href="#">首页</a>
+            <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+            <a class="cases_head_title_span" href="#">行业动态</a>
+            <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+            <a class="cases_head_title_span" href="#">新闻详情</a>
+        </div>
+    </div>
+    <div class="new_info_main_div">
+        <div class="new_info_left_div">
+            <div class="new_info_title">10招动画效果让你的App更有逼格</div>
+            <div class="new_info_subtitle">
+                <div class="new_info_time">2019-10-14</div>
+                <div class="new_info_time">阅读：13336</div>
+            </div>
+            <div id="new_info">
+                这里放获取后端的数据内容
+                <!-- 这里放获取后端的数据内容 -->
+                <div id="new_info">
+                    <p>近日，国家工业和信息化部向中国电信、中国移动、中国联通、中国广电发放5G商用牌照。直到此时此刻，还是有大量的声音在媒体和社交网络上提出这样的疑问：5G到底有没有用？<br><br>毫无疑问，今天在任何信息平台上都可以很容易地找到人们对5G的“极限吹捧”，豪言5G有多快，5G将如何如何改变社会，种种说法数不胜数。但同时也有很多人反问了，5G再快还能快的过光纤？4G网络也已经够用了，为什么那么急着要5G？<br><br>关于这样的疑问太多，大家争论的焦点，还是单纯地将5G和网速画上等号。当然了，网络宽带的增强确实是5G最基础的变化，然而事实上，5G是整个无线通信协议的迭代更新，其中大量的通信能力都能被重新定义。<br><br>
+                    </p>
+                    <div style="text-align: center;"><img
+                            src="https://www.jiayouad.com/uploads/tmp/20190711/20791c18f83a7c1b53fb14a359394e0f.jpg"
+                            style="max-width: 100%;">
+                    </div><br><span style="font-weight: bold;">5G将实现人与物、物与物的连接</span><br>
+                    如果说把1G的网速比作走路，2G就是在跑步，3G就是开车，4G相当于开飞机，而令人充满想象的5G，则堪比开启了超音速。在5G时代，我们最直接的体验就是使用任何人机交互的产品都不会有卡顿了，网页秒开，视频秒下，工作、娱乐都将会更加顺畅、高效！那些对网速要求极高的设备像AR、VR，它们将会和你的四肢一样反应迅速、灵敏，再也没有4G时代的延时。<br><br>
+                    <div style="text-align: center;"><img
+                            src="https://www.jiayouad.com/uploads/tmp/20190711/a2132c76b33dd590482da0ce7672b934.png"
+                            style="max-width: 100%;">
+                    </div>
+                    <br>具体来说，5G绝不仅仅是大家所认为的“网速变得更快了”而已，5G的背后是大众不为所知的，其实蕴藏了更多产业的可能性——比如，我们一直都在畅想的5G和物联网的结合。5G时代万物互联，这句话相信大家都听过无数遍了，那么万物到底为什么会因为5G互联呢？我来给大家举几个例子。<br><br><span
+                        style="font-weight: bold;">5G银行：没有柜台 不用带身份证</span>
+                    <p></p>
+                    <p>近日，北京第一家运用5G技术提供全新服务的银行网点亮相了。在网点内，除了有几名工作人员帮助客户熟悉操作流程之外，这里没有一个柜台，没有一个客户经理。客户进来只需要“刷脸”，再通过手机验证，就可以在这些智能柜员机上办业务，连身份证和银行卡都不用带。在这里，由于生物识别、影像识别、大数据、人工智能、语义分析等技术的采用，再通过5G实现数据互联，一些以往无法实现的服务也可以提供了。<br><br>
+                    </p>
+                    <div style="text-align: center;"><img
+                            src="https://www.jiayouad.com/uploads/tmp/20190711/16a4fea225f97ef18348483227d98b70.jpg"
+                            style="max-width: 100%;">
+                    </div><br><span style="font-weight: bold;">5G医疗 ：远程医疗缓解就医难</span>
+                    <p></p>
+                    <p>今年3月，全国首例5G远程脑起搏器植入手术成功实施。据介绍，几乎没有延迟卡顿的现象，声音交流就像站在病人边上进行手术一样。脑起搏器植入手术等手术对医生的专业知识和临床经验要求很高，基层医院往往难以开展。5G移动远程医疗技术的实施使得上级医院专家不用出门，即可远程指导多台手术并进行远程会诊。<br>除了手术，5G可以在医疗的各个方面得到广泛应用，可以远程查房，远程B超，等等。优质的医疗资源通过5G技术缓解就医难、降低费用。&nbsp;<br><br>
+                    </p>
+                    <div style="text-align: center;"><img
+                            src="https://www.jiayouad.com/uploads/tmp/20190711/b8f54c48951b33c5610628ca262dfdc6.png"
+                            style="max-width: 100%;">
+                    </div><br><span style="font-weight: bold;">4G改变生活，5G改变社会</span>，让我们共同期待这些未来畅想变成现实。<p></p>
+                </div>
+            </div>
+            <div class="new_info_bottom_others">
+                <a href="#">上一篇：上一篇文章</a>
+                <a href="#">下一篇：下一篇一篇文章</a>
+            </div>
+        </div>
+        <div class="new_info_back_top">
+            <img class="new_info_back_top_img" src="./img/back.png" alt="">
+        </div>
+        <div class="news_right_main_div">
+            <div class="news_right_div">
+                <div class="news_right_card_div">
+                    <div class="news_right_card_title">热门新闻</div>
+                    <div class="news_right_card_line">
+                        <img class="news_right_card_line_img" src="./img/news/bule_line.png" alt="">
+                    </div>
+                    <a href="#">
+                        <div class="news_right_card_item_div" onclick="$go('new_info')">
+                            <div class="news_right_card_item_img_div">
+                                <img class="news_right_card_item_img" src="./img/news/new.png" alt="new.png">
+                            </div>
+                            <div class="news_right_card_item_content_div">
+                                <a class="news_right_card_item_title">2009年网站备案</a>
+                                <!-- <div class="news_right_card_item_content">
+                                近日，中央外宣办、公安部、工业 和信息化部、文化部、广电总局...
+                            </div> -->
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="news_right_card_item_div" onclick="$go('new_info')">
+                            <div class="news_right_card_item_img_div">
+                                <img class="news_right_card_item_img" src="./img/news/new.png" alt="new.png">
+                            </div>
+                            <div class="news_right_card_item_content_div">
+                                <a class="news_right_card_item_title">2009年网站备案</a>
+                                <!-- <div class="news_right_card_item_content">
+                                近日，中央外宣办、公安部、工业 和信息化部、文化部、广电总局...
+                            </div> -->
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="news_right_card_div">
+                    <div class="news_right_card_title">排行榜</div>
+                    <div class="news_right_card_line">
+                        <img class="news_right_card_line_img" src="./img/news/bule_line.png" alt="">
+                    </div>
+                    <div class="news_right_card_ranking_list">
+                        <a class="news_right_card_ranking_item" href="#">2009年网站备案</a>
+                        <a class="news_right_card_ranking_item" href="#">2009年网站备案</a>
+                        <a class="news_right_card_ranking_item" href="#">2009年网站备案</a>
+                        <a class="news_right_card_ranking_item" href="#">2009年网站备案</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 页脚 -->
+    <div id="jy_footer"></div>
+
+    <script src="./config/body_modules.js"></script>
+</body>
+
+</html>

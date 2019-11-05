@@ -1,0 +1,37 @@
+<div class="head_main_div">
+    <div class="navbar navbar-default head_navbar_div" role="navigation">
+        <div class="container-fluid head_div">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <img class="head_logo_img" alt="Brand" src="../../img/head/logo.png" alt="logo.png">
+                </a>
+            </div>
+            <ul class="nav navbar-right head_nav_right">
+                <div class="head_phone">
+                    <img id="head_phone_img" class="head_phone_img" src="" alt="phone.png" />
+                    服务热线：020-81807466
+                </div>
+                <li class="head_li head_nav_active active" role="presentation"><a class="head_a" href="#" onclick="$go('index')">首页</a>
+                </li>
+                <li class="head_li" role="presentation"><a class="head_a" href="#" onclick="$go('app_develop')">APP定制</a></li>
+                <li class="head_li" role="presentation"><a class="head_a" href="#" onclick="$go('applet')">小程序开发</a></li>
+                <li class="head_li" role="presentation"><a class="head_a" href="#" onclick="$go('website')">网站建设</a></li>
+                <li class="dropdown head_li">
+                    <a class="head_a" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                        aria-expanded="false">产品服务<span class="caret"></span></a>
+                    <ul class="dropdown-menu" style="text-align: center;">
+                        <li class="head_li_two" role="presentation"><a class="head_a_two" href="#" onclick="$go('mobile')">移动开发</a></li>
+                        <li class="head_li_two" role="presentation"><a class="head_a_two" href="#" onclick="$go('deals')">运营推广</a></li>
+                        <li class="head_li_two" role="presentation"><a class="head_a_two" href="#" onclick="$go('services')">配套服务</a></li>
+                        <li class="head_li_two" role="presentation"><a class="head_a_two" href="#" onclick="$go('cases')">精品案例</a></li>
+                    </ul>
+                </li>
+                <li class="head_li" role="presentation"><a class="head_a" href="#" onclick="$go('news')">行业动态</a></li>
+                <li class="head_li" role="presentation"><a class="head_a" href="#" onclick="$go('about_us')">关于甲由</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+    $("#head_phone_img").attr("src", dotsSum + "/img/head/phone.png")
+</script>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>甲由科技-404</title>
+    <link rel="stylesheet" href="./css/404/404.css">
+    <script src="./config/head_modules.js"></script>
+</head>
+
+<body>
+    <!-- 404 -->
+    <div id="jy_head" class="none_jy_head"></div>
+    <div class="none_main_div">
+        <img class="none_img" src="./img/404.png" />
+        <div class="none_div">
+            <div class="none_title">
+                哎呀……看起来像你迷路了. . ! !
+            </div>
+
+            <button type="button" class="btn btn-light none_btn">Go back to Home</button>
+        </div>
+    </div>
+
+    <script src="./config/body_modules.js"></script>
+</body>
+
+</html>

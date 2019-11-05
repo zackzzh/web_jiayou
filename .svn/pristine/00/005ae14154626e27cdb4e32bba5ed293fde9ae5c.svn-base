@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="renderer" content="webkit|ie-comp|ie-stand" /> -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>甲由科技-移动开发</title>
+    <link rel="stylesheet" href="./css/mobile/mobile.css">
+
+    <script src="./config/head_modules.js"></script>
+
+</head>
+
+<body>
+    <!-- 页头 -->
+    <div id="jy_head"></div>
+    <!-- 轮播 -->
+    <div class="deals_head_div">
+        <img class="deals_head_img" src="./img/mobile/banner01.png" alt="banner01.png">
+    </div>
+
+    <!-- 需求表单 -->
+    <div id="need_form"></div>
+
+    <div class="app_main_div">
+        <!-- 开发优势 -->
+        <div class="index_common_main_title_div">
+            <div class="index_common_title_img_div">
+                <img class="index_common_title_img" style="width: 500px;" src="./img/index/title_frame.png"
+                    alt="title.png" />
+            </div>
+            <div class="index_common_title_div">
+                <div class="index_common_enTitle">Development advantage</div>
+                <div class="index_common_title">移动开发优势</div>
+            </div>
+        </div>
+        <div class="mobile_da_main_div">
+            <div class="mobile_da_img_div">
+                <img class="mobile_da_img" src="./img/mobile/d_a.png" alt="开发优势.png">
+            </div>
+            <div class="mobile_da_content_div">
+                <div class="mobile_da_content">
+                    移动智能终端用户激增，为企业带来广阔的商业契机。甲由科技量身定制，专业打造小程序定制、微信商城风销开发、微信公众号H5定制等，为企业打造全新的一站式多元化移动营销解决方案。
+                </div>
+            </div>
+        </div>
+        <!-- 覆盖行业 -->
+        <div class="index_common_main_title_div">
+            <div class="index_common_title_img_div">
+                <img class="index_common_title_img" src="./img/index/title_frame.png" alt="title.png" />
+            </div>
+            <div class="index_common_title_div">
+                <div class="index_common_enTitle">Cover industry</div>
+                <div class="index_common_title">覆盖行业</div>
+            </div>
+        </div>
+        <div class="app_ca_div">
+            <div class="app_ca_card_div">
+                <div class="app_ca_card_img_div">
+                    <img class="app_ca_card_img" src="./img/mobile/c_i01.png" alt="小程序.png">
+                </div>
+                <div class="app_ca_card_content_div">
+                    <div class="app_ca_card_content">
+                        <img class="app_ca_card_icon" src="./img/mobile/c_i_icon01.png" alt="小程序.png">
+                        <div class="app_ca_card_title">小程序</div>
+                        <div class="app_ca_card_elTitle">SMALL PROGRAM</div>
+                    </div>
+                </div>
+            </div>
+            <div class="app_ca_card_div">
+                <div class="app_ca_card_img_div">
+                    <img class="app_ca_card_img" src="./img/mobile/c_i02.png" alt="公众号.png">
+                </div>
+                <div class="app_ca_card_content_div">
+                    <div class="app_ca_card_content">
+                        <img class="app_ca_card_icon" src="./img/mobile/c_i_icon02.png" alt="公众号.png">
+                        <div class="app_ca_card_title">公众号</div>
+                        <div class="app_ca_card_elTitle">THE PUBLIC</div>
+                    </div>
+                </div>
+            </div>
+            <div class="app_ca_card_div">
+                <div class="app_ca_card_img_div">
+                    <img class="app_ca_card_img" src="./img/mobile/c_i03.png" alt="微商城.png">
+                </div>
+                <div class="app_ca_card_content_div">
+                    <div class="app_ca_card_content">
+                        <img class="app_ca_card_icon" src="./img/mobile/c_i_icon03.png" alt="微商城.png">
+                        <div class="app_ca_card_title">微商城</div>
+                        <div class="app_ca_card_elTitle">MICRO MALL</div>
+                    </div>
+                </div>
+            </div>
+            <div class="app_ca_card_div">
+                <div class="app_ca_card_img_div">
+                    <img class="app_ca_card_img" src="./img/mobile/c_i04.png" alt="手机网站.png">
+                </div>
+                <div class="app_ca_card_content_div">
+                    <div class="app_ca_card_content">
+                        <img class="app_ca_card_icon" src="./img/mobile/c_i_icon04.png" alt="手机网站.png">
+                        <div class="app_ca_card_title">手机网站</div>
+                        <div class="app_ca_card_elTitle">MOBILE WEB SITE</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 案例墙 -->
+        <div class="index_common_main_title_div">
+            <div class="index_common_title_img_div">
+                <img class="index_common_title_img" src="./img/index/title_frame.png" alt="title.png" />
+            </div>
+            <div class="index_common_title_div">
+                <div class="index_common_enTitle">Classic case</div>
+                <div class="index_common_title">精品案例</div>
+            </div>
+        </div>
+        <div class="cases_options_div">
+            <a class="cases_option cases_option_active" href="#">美妆日化</a>
+            <a class="cases_option" href="#">外 卖</a>
+            <a class="cases_option" href="#">运 动</a>
+            <a class="cases_option" href="#">餐 饮</a>
+            <a class="cases_option" href="#">珠 宝</a>
+            <a class="cases_option" href="#">服 饰</a>
+            <a class="cases_option" href="#">鲜 花</a>
+            <a class="cases_option" href="#">游 戏</a>
+            <a class="cases_option" href="#">直 播</a>
+            <a class="cases_option" href="#">团 购</a>
+            <a class="cases_option" href="#">社 交</a>
+        </div>
+        <div class="index_cases_div">
+            <div class="index_case_div" onclick="$go('case_info')">
+                <div class="index_case_img_div">
+                    <img class="index_case_img" src="./img/index/case.png" alt="case.png" />
+                </div>
+                <!-- 链接模态框 -->
+                <div class="index_case_modal_div">
+                    <div class="index_case_modal">
+                        <div class="index_case_modal_title">东莞市三尚陈列展示道具有限公司官网</div>
+                        <div class="index_case_modal_content">
+                            三尚是一家专业为线下零售陈列展示市场客户提供定制,设计,开发,生产,运输,安装,售后一体化服务的企业。
+                            主要产品种类包括但不限于：店面形象设计与施工,店面灯光设计,独立展柜,橱窗展示,产品陈列道具,品牌营销视觉陈列等。
+                            公司拥有专业的研发设计团队,项目实施团队,完善的管理制度,出色的产品质量与服务,始终如一地坚守准时守信的原则。公司成立至今已在业内建立优秀口碑，并与一些海内外知名品牌建立了稳定友好的合作关系。如华为,三星,西铁城,飞亚达等。
+                        </div>
+                        <div class="index_case_modal_line">东莞市三尚陈列展示道具有限公司官网</div>
+                        <!-- <button type="button" class="btn btn-default">东莞市三尚陈列展示道具有限公司官网</button> -->
+                    </div>
+                </div>
+            </div>
+            <div class="index_case_div" onclick="$go('case_info')">
+                <div class="index_case_img_div">
+                    <img class="index_case_img" src="./img/index/case.png" alt="case.png" />
+                </div>
+                <!-- 二维码模态框 -->
+                <div class="index_case_modal_div">
+                    <div class="index_case_modal">
+                        <div class="index_case_modal_title">惠法律师所</div>
+                        <div class="index_case_modal_content">
+                            广东惠法律师事务所是广东省司法厅批准的综合性律师事务所；“政治坚定 忠诚公正 惠法服务
+                            关键靠谱”惠法以维护民主法制，追求社会公正为己任，以“高效务实”为宗旨。以信息集约化为方向;
+                            在各类诉讼及不动产处置，在社区法律服务、法律援助，在婚姻劳动，特别是在国内商事法律顾问方面，惠法以多种形式向客户提供及时、明确、中肯的法律分析和最佳方案。可向国内外客户提供全面的法律服务。
+                        </div>
+                        <div class="index_case_qr_main_div">
+                            <div class="index_case_qr_div">
+                                <img src="./img/footer/jy_qr.png" />
+                            </div>
+                            <div class="index_case_qr_div">
+                                <img src="./img/footer/jy_qr.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="index_case_div" onclick="$go('case_info')">
+                <div class="index_case_img_div">
+                    <img class="index_case_img" src="./img/index/case.png" alt="case.png" />
+                </div>
+            </div>
+            <div class="index_case_div" onclick="$go('case_info')">
+                <div class="index_case_img_div">
+                    <img class="index_case_img" src="./img/index/case.png" alt="case.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 联系我们 -->
+    <div id="contact_us"></div>
+    <!-- 页脚 -->
+    <div id="jy_footer"></div>
+
+    <script src="./config/body_modules.js"></script>
+</body>
+
+</html>

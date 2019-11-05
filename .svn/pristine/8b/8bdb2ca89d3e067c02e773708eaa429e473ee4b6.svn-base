@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'webfont';
+    font-display: swap;
+    src: url('../../font/si_yuan_black/webfont.eot');
+    /* IE9 */
+    src: url('../../font/si_yuan_black/webfont.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../../font/si_yuan_black/webfont.woff2') format('woff2'),
+        url('../../font/si_yuan_black/webfont.woff') format('woff'),
+        /* chrome、firefox */
+        url('../../font/si_yuan_black/webfont.ttf') format('truetype'),
+        /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+        url('../../font/si_yuan_black/webfont.svg#webfont') format('svg');
+    /* iOS 4.1- */
+}
+
+.web-font {
+    font-family: "webfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+// 公共的title样式
+.index_common_main_title_div {
+    position: relative;
+    color: #7D91D0;
+
+    .index_common_title_img_div {
+        height: 84px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 16px auto auto auto;
+        // padding: 20px 0 0 0;
+
+        .index_common_title_img {
+            width: auto;
+            height: 100%;
+        }
+    }
+
+    .index_common_title_div {
+        // font-family: AliHYAiHei;
+        font-family: "Source Han Sans CN", "webfont";
+        font-weight: bold;
+        letter-spacing: 4px;
+
+        // padding-top: -20px;
+        .index_common_enTitle {
+            font-size: 20px;
+        }
+
+        .index_common_title {
+            font-size: 38px;
+            letter-spacing: 8px;
+        }
+    }
+}

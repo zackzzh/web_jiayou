@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="renderer" content="webkit|ie-comp|ie-stand" /> -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>甲由科技-运营推广</title>
+    <link rel="stylesheet" href="./css/services/services.css">
+
+    <script src="./config/head_modules.js"></script>
+
+</head>
+
+<body>
+    <!-- 页头 -->
+    <div id="jy_head"></div>
+    <!-- 轮播 -->
+    <!-- <div class="maGong" data-title="" data-time="1562054819">
+        <div class="user_BR_div">
+            <div class="user_BR">
+                <div class="poster_container">
+                    <a class="poster_left" href="" target="_blank"></a>
+                    <a class="poster_right" href="" target="_blank">
+                        <span id="anniu" class="anniu"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <div class="services_head_div">
+        <img class="services_head_img" src="./img/services/banner01.png" alt="">
+    </div>
+    <!-- 需求表单 -->
+    <div id="need_form"></div>
+
+    <div class="app_main_div">
+        <!-- 开发优势 -->
+        <div class="index_common_main_title_div">
+            <div class="index_common_title_img_div">
+                <img class="index_common_title_img" style="width: 500px;" src="./img/index/title_frame.png"
+                    alt="title.png" />
+            </div>
+            <div class="index_common_title_div">
+                <div class="index_common_enTitle">Development advantage</div>
+                <div class="index_common_title">配套服务优势</div>
+            </div>
+        </div>
+        <div class="mobile_da_main_div">
+            <div class="mobile_da_img_div">
+                <img class="mobile_da_img" src="./img/services/d_a.png" alt="开发优势.png">
+            </div>
+            <div class="mobile_da_content_div">
+                <div class="mobile_da_content">
+                    甲由科技凭借精专的开发技术和崇高的服务要求，为企业提供丰富的互联网配套服务。从用户体验出发，竭尽全力帮助企业引流盈利，提升企业品牌转化。
+                </div>
+            </div>
+        </div>
+        <!-- 配套服务类型 -->
+        <div class="index_common_main_title_div">
+            <div class="index_common_title_img_div">
+                <img class="index_common_title_img" src="./img/index/title_frame.png" alt="title.png" />
+            </div>
+            <div class="index_common_title_div">
+                <div class="index_common_enTitle">Cover industry</div>
+                <div class="index_common_title">配套服务类型</div>
+            </div>
+        </div>
+        <div class="app_ca_div">
+            <div class="app_ca_card_div">
+                <div class="app_ca_card_img_div">
+                    <img class="app_ca_card_img" src="./img/services/type01.png" alt="域名注册.png">
+                </div>
+                <div class="app_ca_card_content_div">
+                    <div class="app_ca_card_content">
+                        <div class="app_ca_card_title">域名注册</div>
+                        <div class="app_ca_card_elTitle">DOMAIN NAME REGISTRATION</div>
+                    </div>
+                </div>
+            </div>
+            <div class="app_ca_card_div">
+                <div class="app_ca_card_img_div">
+                    <img class="app_ca_card_img" src="./img/services/type02.png" alt="企业邮箱.png">
+                </div>
+                <div class="app_ca_card_content_div">
+                    <div class="app_ca_card_content">
+                        <div class="app_ca_card_title">企业邮箱</div>
+                        <div class="app_ca_card_elTitle">ENTERPRISE EMAIL</div>
+                    </div>
+                </div>
+            </div>
+            <div class="app_ca_card_div">
+                <div class="app_ca_card_img_div">
+                    <img class="app_ca_card_img" src="./img/services/type03.png" alt="虚拟主机.png">
+                </div>
+                <div class="app_ca_card_content_div">
+                    <div class="app_ca_card_content">
+                        <div class="app_ca_card_title">虚拟主机</div>
+                        <div class="app_ca_card_elTitle">VIRTUAL HOST</div>
+                    </div>
+                </div>
+            </div>
+            <div class="app_ca_card_div">
+                <div class="app_ca_card_img_div">
+                    <img class="app_ca_card_img" src="./img/services/type04.png" alt="OA系统.png">
+                </div>
+                <div class="app_ca_card_content_div">
+                    <div class="app_ca_card_content">
+                        <div class="app_ca_card_title">OA系统</div>
+                        <div class="app_ca_card_elTitle">OA SYSTEM</div>
+                    </div>
+                </div>
+            </div>
+            <div class="app_ca_card_div">
+                <div class="app_ca_card_img_div">
+                    <img class="app_ca_card_img" src="./img/services/type05.png" alt="服务器租用.png">
+                </div>
+                <div class="app_ca_card_content_div">
+                    <div class="app_ca_card_content">
+                        <div class="app_ca_card_title">服务器租用</div>
+                        <div class="app_ca_card_elTitle">SERVER HIRE</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 案例墙 -->
+        <div class="index_common_main_title_div">
+            <div class="index_common_title_img_div">
+                <img class="index_common_title_img" src="./img/index/title_frame.png" alt="title.png" />
+            </div>
+            <div class="index_common_title_div">
+                <div class="index_common_enTitle">Classic case</div>
+                <div class="index_common_title">精品案例</div>
+            </div>
+        </div>
+        <div class="cases_options_div">
+            <a class="cases_option cases_option_active" href="#">美妆日化</a>
+            <a class="cases_option" href="#">外 卖</a>
+            <a class="cases_option" href="#">运 动</a>
+            <a class="cases_option" href="#">餐 饮</a>
+            <a class="cases_option" href="#">珠 宝</a>
+            <a class="cases_option" href="#">服 饰</a>
+            <a class="cases_option" href="#">鲜 花</a>
+            <a class="cases_option" href="#">游 戏</a>
+            <a class="cases_option" href="#">直 播</a>
+            <a class="cases_option" href="#">团 购</a>
+            <a class="cases_option" href="#">社 交</a>
+        </div>
+        <div class="index_cases_div">
+            <div class="index_case_div" onclick="$go('case_info')">
+                <div class="index_case_img_div">
+                    <img class="index_case_img" src="./img/index/case.png" alt="case.png" />
+                </div>
+                <!-- 链接模态框 -->
+                <div class="index_case_modal_div">
+                    <div class="index_case_modal">
+                        <div class="index_case_modal_title">东莞市三尚陈列展示道具有限公司官网</div>
+                        <div class="index_case_modal_content">
+                            三尚是一家专业为线下零售陈列展示市场客户提供定制,设计,开发,生产,运输,安装,售后一体化服务的企业。
+                            主要产品种类包括但不限于：店面形象设计与施工,店面灯光设计,独立展柜,橱窗展示,产品陈列道具,品牌营销视觉陈列等。
+                            公司拥有专业的研发设计团队,项目实施团队,完善的管理制度,出色的产品质量与服务,始终如一地坚守准时守信的原则。公司成立至今已在业内建立优秀口碑，并与一些海内外知名品牌建立了稳定友好的合作关系。如华为,三星,西铁城,飞亚达等。
+                        </div>
+                        <div class="index_case_modal_line">东莞市三尚陈列展示道具有限公司官网</div>
+                        <!-- <button type="button" class="btn btn-default">东莞市三尚陈列展示道具有限公司官网</button> -->
+                    </div>
+                </div>
+            </div>
+            <div class="index_case_div" onclick="$go('case_info')">
+                <div class="index_case_img_div">
+                    <img class="index_case_img" src="./img/index/case.png" alt="case.png" />
+                </div>
+                <!-- 二维码模态框 -->
+                <div class="index_case_modal_div">
+                    <div class="index_case_modal">
+                        <div class="index_case_modal_title">惠法律师所</div>
+                        <div class="index_case_modal_content">
+                            广东惠法律师事务所是广东省司法厅批准的综合性律师事务所；“政治坚定 忠诚公正 惠法服务
+                            关键靠谱”惠法以维护民主法制，追求社会公正为己任，以“高效务实”为宗旨。以信息集约化为方向;
+                            在各类诉讼及不动产处置，在社区法律服务、法律援助，在婚姻劳动，特别是在国内商事法律顾问方面，惠法以多种形式向客户提供及时、明确、中肯的法律分析和最佳方案。可向国内外客户提供全面的法律服务。
+                        </div>
+                        <div class="index_case_qr_main_div">
+                            <div class="index_case_qr_div">
+                                <img src="./img/footer/jy_qr.png" />
+                            </div>
+                            <div class="index_case_qr_div">
+                                <img src="./img/footer/jy_qr.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="index_case_div" onclick="$go('case_info')">
+                <div class="index_case_img_div">
+                    <img class="index_case_img" src="./img/index/case.png" alt="case.png" />
+                </div>
+            </div>
+            <div class="index_case_div" onclick="$go('case_info')">
+                <div class="index_case_img_div">
+                    <img class="index_case_img" src="./img/index/case.png" alt="case.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 联系我们 -->
+    <div id="contact_us"></div>
+    <!-- 页脚 -->
+    <div id="jy_footer"></div>
+
+    <script src="./config/body_modules.js"></script>
+</body>
+
+</html>

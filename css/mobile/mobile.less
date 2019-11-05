@@ -1,0 +1,257 @@
+// 轮播
+.deals_head_div {
+    width: 100%;
+    min-width: 1200px;
+
+    .deals_head_img {
+        width: 100%;
+    }
+}
+
+// 中间内容部分
+.app_main_div {
+    width: 1200px;
+    text-align: center;
+    margin: auto;
+    padding: 50px 0;
+
+    // 移动开发优势
+    .mobile_da_main_div {
+        position: relative;
+        width: 100%;
+        height: 440px;
+        margin: 70px 0 80px 0;
+
+        .mobile_da_img_div {
+            // float: left;
+            width: 45%;
+            position: absolute;
+            top: -14px;
+            left: 0;
+
+            .mobile_da_img {
+                width: 100%;
+                box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.27);
+            }
+        }
+
+        .mobile_da_content_div {
+            width: 100%;
+            height: 100%;
+            background: #EBEBEB;
+            padding: 60px;
+
+            .mobile_da_content {
+                float: right;
+                width: 46%;
+                text-align: left;
+                font-family: SourceHanSansCN-Medium;
+                font-size: 32px;
+                font-weight: 500;
+                color: #0070BC;
+                line-height: 48px;
+                letter-spacing: 6px;
+            }
+        }
+    }
+
+    // 覆盖行业
+    .app_ca_div {
+        margin: 60px 0 50px 0;
+
+        .app_ca_card_div {
+            position: relative;
+            display: inline-block;
+            width: 49%;
+            margin-bottom: 2px;
+
+            .app_ca_card_img_div {
+                width: 100%;
+
+                .app_ca_card_img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+
+            .app_ca_card_content_div {
+                display: block;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                width: 100%;
+                height: 100%;
+                margin: auto;
+                color: #FFFFFF;
+                background: rgba(27, 27, 27, 0.88);
+
+                .app_ca_card_content {
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    width: 100%;
+                    height: 50%;
+                    margin-top: 8%;
+                    font-weight: bold;
+
+                    .app_ca_card_icon {
+                        // width: 76px;
+                        // height: auto;
+                        width: auto;
+                        height: 68px;
+                    }
+
+                    .app_ca_card_title {
+                        font-size: 28px;
+                        letter-spacing: 4px;
+                        margin-top: 30px;
+                    }
+
+                    .app_ca_card_elTitle {
+                        font-size: 22px;
+                        letter-spacing: 2px;
+                        margin: 12px 0 50px 0;
+                    }
+                }
+            }
+        }
+
+        .app_ca_card_div:hover {
+            .app_ca_card_content_div {
+                display: none;
+            }
+        }
+    }
+
+    .cases_options_div {
+        margin: 50px 16px 0 16px;
+        // width: auto;
+        // background: rgba(191, 213, 255, 0.22);
+        background: rgba(191, 213, 255, 0.4);
+
+        a {
+            text-decoration: none;
+        }
+
+        .cases_option {
+            cursor: pointer;
+            display: inline-block;
+            padding: 14px 20px;
+            font-family: SourceHanSansCN-Normal;
+            font-size: 18px;
+            font-weight: 400;
+            letter-spacing: 3px;
+            color: #848282;
+        }
+
+        .cases_option_active {
+            background: #0095E2;
+            color: #FFFFFF;
+        }
+    }
+
+    // 案例墙
+    .index_cases_div {
+        margin-top: 50px;
+        width: 100%;
+        text-align: left;
+
+        .index_case_div {
+            position: relative;
+            display: inline-block;
+            width: 33%;
+            padding: 8px;
+            transition: height 1s;
+
+            .index_case_img_div {
+                width: 100%;
+                border-radius: 4px;
+                box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.6);
+
+                .index_case_img {
+                    width: 100%;
+                    height: auto;
+                    border-radius: 4px;
+                }
+            }
+
+            .index_case_modal_div {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 0;
+                text-align: center;
+                vertical-align: middle;
+                padding: 8px;
+                transition: height 1s;
+
+                .index_case_modal {
+                    padding: 0 8px;
+                    height: 100%;
+                    vertical-align: middle;
+                    color: #FEFEFE;
+                    background: #333333;
+                    font-family: MicrosoftYaHei-Bold;
+                    font-weight: bold;
+                    letter-spacing: 2px;
+                    border-radius: 4px;
+                    overflow: hidden;
+
+                    .index_case_modal_title {
+                        font-size: 18px;
+                        margin: 12px 0 6px 0;
+                    }
+
+                    .index_case_modal_content {
+                        margin-bottom: 6px;
+                        font-size: 12px;
+                        text-indent: 26px;
+                        text-align: left;
+                    }
+
+                    // 模态框链接
+                    .index_case_modal_line {
+                        cursor: pointer;
+                        display: inline-block;
+                        padding: 4px 20px;
+                        border: 1px solid #2CFDB4;
+                        border-radius: 6px;
+                        font-size: 14px;
+                        color: #2CFDB4;
+                        background: transparent;
+                    }
+
+                    // 模态框二维码
+                    .index_case_qr_main_div {
+                        // width: 100%;
+                        height: 50px;
+                        text-align: center;
+
+                        .index_case_qr_div {
+                            display: inline-block;
+                            width: 50px;
+                            height: 100%;
+                            margin: 0 20px;
+
+                            img {
+                                display: inline-block;
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .index_case_div:hover {
+            .index_case_modal_div {
+                height: 100%;
+            }
+        }
+    }
+}

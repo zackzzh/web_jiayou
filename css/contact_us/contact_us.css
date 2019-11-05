@@ -1,0 +1,115 @@
+.contact_main_div {
+  min-width: 1200px;
+  background-image: url("../../img/contact/bg.png");
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.contact_main_div .contact_div {
+  position: relative;
+  width: 1200px;
+  margin: auto;
+  padding: 24px 0 20px 0;
+  vertical-align: middle;
+}
+.contact_main_div .contact_div .contact_left {
+  width: 40%;
+  vertical-align: top;
+  display: inline-block;
+}
+.contact_main_div .contact_div .contact_left .contact_us_div {
+  color: #00FFFF;
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+.contact_main_div .contact_div .contact_left .contact_us_div .contact_us_line {
+  width: 100px;
+  height: 2px;
+  margin: 6px 0;
+  background: #00FFFF;
+}
+.contact_main_div .contact_div .contact_left .contact_us_div .contact_us_elTitle {
+  letter-spacing: 4px;
+}
+.contact_main_div .contact_div .contact_left .contact_content {
+  margin: 30px 0 0 0;
+  font-size: 38px;
+  font-family: SourceHanSansCN Heavy;
+  font-weight: 600;
+  color: #EBEBEB;
+  line-height: 60px;
+  letter-spacing: 4px;
+  text-shadow: -5px 3px 6px rgba(0, 0, 0, 0.36);
+}
+.contact_main_div .contact_div .contact_right {
+  width: 59.6%;
+  vertical-align: top;
+  display: inline-block;
+  margin-top: 20px;
+  color: #ffffff;
+}
+.contact_main_div .contact_div .contact_right .contact_right_input_div {
+  display: inline-block;
+  width: 49.7%;
+  margin: 0 0 18px 0;
+}
+.contact_main_div .contact_div .contact_right .contact_right_input_div .contact_right_input_group {
+  width: 100%;
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  padding: 0 12px;
+  background: #5978a6;
+}
+.contact_main_div .contact_div .contact_right .contact_right_input_div .contact_right_input_group .contact_right_label {
+  margin: 0;
+  padding: 12px 0;
+  width: 40%;
+  font-size: 16px;
+}
+.contact_main_div .contact_div .contact_right .contact_right_input_div .contact_right_input_group .contact_right_input {
+  width: 58.6%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline-style: none;
+  background: transparent;
+  font-size: 16px;
+}
+.contact_main_div .contact_div .contact_right .contact_right_input_odd {
+  padding: 0 16px 0 0;
+}
+.contact_main_div .contact_div .contact_right .contact_right_input_even {
+  padding: 0 0 0 16px;
+}
+.contact_main_div .contact_div .contact_right .contact_right_textarea_div {
+  width: 100%;
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  background: #5978a6;
+  font-size: 16px;
+}
+.contact_main_div .contact_div .contact_right .contact_right_textarea_div .contact_right_label {
+  vertical-align: top;
+  padding: 12px 0 0 12px;
+}
+.contact_main_div .contact_div .contact_right .contact_right_textarea_div .contact_right_Message {
+  width: 80%;
+  margin: 6px 0 0 0;
+  text-align: left;
+  border: none;
+  outline-style: none;
+  background: transparent;
+}
+.contact_main_div .contact_div .contact_right .contact_right_btn_div {
+  margin-top: 20px;
+  text-align: center;
+}
+.contact_main_div .contact_div .contact_right .contact_right_btn_div .btn-default {
+  padding: 10px 40px;
+  border-radius: 6px;
+  font-family: SourceHanSansCN-Regular;
+  font-size: 20px;
+  font-weight: 400;
+  color: #5567D0;
+  letter-spacing: 2px;
+}

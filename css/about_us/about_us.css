@@ -1,0 +1,276 @@
+.anout_main_div {
+  width: 100%;
+  min-width: 1200px;
+  padding: 0 90px;
+}
+.anout_main_div .about_head_div {
+  width: 100%;
+  text-align: center;
+  background: #272727;
+  color: #FFFFFF;
+  padding: 90px 0 74px 0;
+}
+.anout_main_div .about_head_div .about_head_title {
+  font-size: 50px;
+}
+.anout_main_div .about_head_div .about_head_subtitle {
+  font-size: 26px;
+  letter-spacing: 2px;
+}
+.anout_main_div .about_blue_div {
+  position: relative;
+  background-image: url("../../img/about_us/blue_bg.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+.anout_main_div .about_blue_div .about_blue_content_div {
+  width: 940px;
+  margin: auto;
+  text-align: center;
+}
+.anout_main_div .about_blue_div .about_blue_content_div .about_blue_content_title {
+  padding: 60px 0 70px 0;
+  font-size: 40px;
+  font-family: SourceHanSansCN-Bold;
+  font-weight: bold;
+  line-height: 58px;
+}
+.anout_main_div .about_blue_div .about_blue_content_div .about_blue_content_enTitle {
+  padding: 0 140px;
+  font-size: 22px;
+}
+.anout_main_div .about_blue_div .about_blue_content_div .about_blue_card_main_div {
+  width: 100%;
+  margin: 60px 0 0 0;
+  color: #E2E0E0;
+}
+.anout_main_div .about_blue_div .about_blue_content_div .about_blue_card_main_div .about_blue_card_div {
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+  padding: 70px 68px;
+}
+.anout_main_div .about_blue_div .about_blue_content_div .about_blue_card_main_div .about_blue_card_div .about_blue_card_blue_title {
+  font-size: 46px;
+  padding: 0 20px;
+  color: #ffffff;
+}
+.anout_main_div .about_blue_div .about_blue_content_div .about_blue_card_main_div .about_blue_card_div .about_blue_card_blue_title_left {
+  text-align: left;
+}
+.anout_main_div .about_blue_div .about_blue_content_div .about_blue_card_main_div .about_blue_card_div .about_blue_card_blue_title_right {
+  text-align: right;
+}
+.anout_main_div .about_blue_div .about_blue_content_div .about_blue_card_main_div .about_blue_card_div .about_blue_card_blue_content {
+  margin: 30px 0 0 0;
+  font-size: 16px;
+  line-height: 26px;
+}
+.anout_main_div .about_blue_div .about_blue_content_div .about_blue_card_main_div .about_blue_card_blue_div {
+  background: #0D4BDE;
+}
+.anout_main_div .about_blue_div .about_blue_content_div .about_blue_card_main_div .about_blue_card_black_div {
+  margin: 110px 0 0 0;
+  background: #081E53;
+}
+.anout_main_div .about_common_title_div {
+  display: inline-block;
+  margin: 60px 20px 20px 0;
+  text-align: right;
+  vertical-align: middle;
+  font-family: SourceHanSansCN-Medium;
+  border-bottom: 1px solid #DEDEDE;
+}
+.anout_main_div .about_common_title_div .about_common_title_head {
+  font-size: 16px;
+  font-weight: 500;
+  font-style: italic;
+  color: #0D4BDE;
+}
+.anout_main_div .about_common_title_div .about_common_title {
+  font-size: 40px;
+  font-weight: 500;
+}
+.anout_main_div .about_common_title_div .about_common_enTitle {
+  font-size: 20px;
+  font-weight: 500;
+}
+.anout_main_div .about_common_title_div .about_common_line_div {
+  float: right;
+  width: 48px;
+  height: 7px;
+  margin: 8px 0 -3px 0;
+  background: #0D4BDE;
+}
+.anout_main_div .about_content_main_div {
+  width: 1200px;
+  margin: 60px auto auto auto;
+  text-align: center;
+  vertical-align: middle;
+}
+.anout_main_div .about_content_main_div .about_experience_div {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  margin: 60px 0 20px 30px;
+}
+.anout_main_div .about_content_main_div .about_experience_div .about_experience_items {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 30px;
+}
+.anout_main_div .about_content_main_div .about_experience_div .about_experience_items .about_experience_title {
+  font-family: AliHYAiHei;
+  font-size: 52px;
+  font-weight: 600;
+}
+.anout_main_div .about_content_main_div .about_experience_div .about_experience_items .about_experience_subtitle {
+  font-family: MyriadPro-Regular;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #0D4BDE;
+}
+.anout_main_div .about_content_main_div .about_awards_img_div {
+  width: 100%;
+  margin: 40px 0 100px 0;
+}
+.anout_main_div .about_content_main_div .about_awards_img_div .about_awards_img01,
+.anout_main_div .about_content_main_div .about_awards_img_div .about_awards_img03 {
+  width: 31%;
+}
+.anout_main_div .about_content_main_div .about_awards_img_div .about_awards_img02 {
+  width: 36%;
+}
+.anout_main_div .about_awards_main_div {
+  display: inline-block;
+  margin: 60px 0 0 40px;
+  text-align: left;
+  vertical-align: middle;
+}
+.anout_main_div .about_awards_main_div .about_awards_title_div {
+  margin-bottom: 10px;
+  font-family: Adobe Heiti Std R;
+}
+.anout_main_div .about_awards_main_div .about_awards_title_div .about_awards_title {
+  font-size: 18px;
+  color: #5F5F5F;
+  letter-spacing: 1px;
+}
+.anout_main_div .about_awards_main_div .about_awards_title_div .about_awards_subtitle {
+  font-size: 14px;
+  color: #0D4BDE;
+}
+.anout_main_div .about_contact_mian_div {
+  text-align: center;
+  background-image: url("../../img/about_us/contact_bg.png");
+  background-position: center top;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.anout_main_div .about_contact_mian_div .about_common_title_div_contact {
+  border-bottom: 1px solid #7B7B79;
+}
+.anout_main_div .about_contact_mian_div .about_common_title_div_contact .about_common_title_head_contact {
+  color: #6CFEFF;
+}
+.anout_main_div .about_contact_mian_div .about_common_title_div_contact .about_common_title_contact {
+  color: #FFFFFF;
+}
+.anout_main_div .about_contact_mian_div .about_common_title_div_contact .about_common_line_div_contact {
+  background: #6CFEFF;
+}
+.anout_main_div .about_contact_mian_div .about_contact_col_line {
+  display: inline-block;
+  vertical-align: middle;
+  width: 1px;
+  height: 87px;
+  margin: 50px 40px 0 50px;
+  background: #FFFFFF;
+}
+.anout_main_div .about_contact_mian_div .about_contact_div {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 60px 0 0 0;
+  color: #FFFFFF;
+}
+.anout_main_div .about_contact_mian_div .about_contact_div .about_contact_icon_div {
+  width: 80px;
+  margin-right: 30px;
+  display: inline-block;
+}
+.anout_main_div .about_contact_mian_div .about_contact_div .about_contact_icon_div .about_contact_icon {
+  width: 100%;
+  height: auto;
+}
+.anout_main_div .about_contact_mian_div .about_contact_div .about_contact_icon_div .about_contact_icon_title {
+  margin: 6px 0 0 0;
+  font-family: SourceHanSansCN-Bold;
+  font-size: 18px;
+  font-weight: bold;
+}
+.anout_main_div .about_contact_mian_div .about_contact_div .about_contact_content_div {
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 2px;
+}
+.anout_main_div .about_contact_mian_div .about_contact_div .about_contact_content_div .about_contact_phone {
+  margin: 0 0 14px 0;
+  font-family: SourceHanSansCN-Medium;
+  font-size: 26px;
+  font-weight: 500;
+}
+.anout_main_div .about_contact_mian_div .about_contact_div .about_contact_content_div .about_contact_adress {
+  font-family: SourceHanSansCN-Normal;
+  font-size: 18px;
+  font-weight: 400;
+}
+.anout_main_div .about_contact_mian_div .about_contact_map_div {
+  width: 1200px;
+  margin: 40px auto 0 auto;
+}
+.anout_main_div .about_contact_mian_div .about_contact_map_div .about_contact_map_img {
+  width: 100%;
+  box-shadow: 0px 5px 62px 0px rgba(0, 0, 0, 0.09);
+}
+.anout_main_div .about_contact_mian_div .about_contact_map_div .about_contact_map_blue_title {
+  margin: 110px 0 28px 0;
+  font-family: SourceHanSansCN-Regular;
+  font-size: 20px;
+  font-weight: 400;
+  color: #0D4BDE;
+}
+.anout_main_div .about_contact_mian_div .about_contact_map_div .about_contact_map_title {
+  font-family: Adobe Heiti Std R;
+  font-size: 36px;
+}
+.anout_main_div .about_contact_mian_div .about_contact_map_div .about_contact_map_elTitle_div {
+  margin: 20px 0 40px 0;
+}
+.anout_main_div .about_contact_mian_div .about_contact_map_div .about_contact_map_elTitle_div .about_contact_map_elTitle {
+  font-family: MyriadPro-Regular;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.anout_main_div .about_contact_mian_div .about_contact_map_div .about_contact_map_btn {
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px 30px;
+  font-family: Adobe Heiti Std R;
+  font-size: 20px;
+  color: #FFFFFF;
+  border-radius: 6px;
+  background: #0D4BDE;
+  box-shadow: 0px 8px 13px 0px rgba(14, 44, 53, 0.08);
+}
+.anout_main_div .about_contact_mian_div .about_partner_div {
+  width: 1200px;
+  margin: 30px auto 100px auto;
+}
+.anout_main_div .about_contact_mian_div .about_partner_div .about_partner_img {
+  width: 22%;
+  margin: 15px;
+  box-shadow: 0 5px 62px 0 rgba(0, 0, 0, 0.09);
+}

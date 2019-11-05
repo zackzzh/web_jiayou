@@ -1,0 +1,102 @@
+// 表单
+.index_form_main_div {
+    min-width: 1200px;
+    padding: 30px 0 24px 0;
+    text-align: center;
+    background: #B0D8EC;
+    // box-shadow: 0px -8px 52px 0px rgba(0, 101, 230, 0.24) inset;
+    font-weight: 600;
+
+    .index_form_div {
+        width: 1200px;
+        margin: auto;
+
+        .index_form_title {
+            font-family: AliHYAiHei;
+            font-size: 34px;
+            color: rgba(0, 60, 183, 0.65);
+            letter-spacing: 8px;
+        }
+
+        .index_form_subtitle {
+            margin: 20px 0 26px 0;
+            font-family: SourceHanSansCN-Regular;
+            font-size: 20px;
+            color: #5B7CB5;
+        }
+
+        // 表单输入部分
+        .index_input_div {
+            width: 24%;
+            display: inline-block;
+            text-align: left;
+
+            .index_input_group {
+                width: 100%;
+                border: 1px solid #DCE4EA;
+                border-radius: 6px;
+                padding: 0 12px;
+                background: #ffffff;
+
+                .index_label {
+                    margin: 0;
+                    padding: 12px 0;
+                    width: 42%;
+                    font-size: 16px;
+
+                    span {
+                        vertical-align: middle;
+                        margin: auto;
+                        font-size: 20px;
+                        color: #FF4300
+                    }
+                }
+
+                .index_input {
+                    width: 55.6%;
+                    margin: 0;
+                    padding: 0;
+                    border: none;
+                    outline-style: none;
+                    background: transparent;
+                    font-size: 16px;
+                }
+
+                // .index_input:focus {
+                //     background: transparent;
+                //     border-color: #DCE4EA;
+                //     outline: 0;
+                //     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(255, 255, 255, 0.4);
+                //     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(255, 255, 255, 0.4);
+                // }
+            }
+        }
+
+        .index_input_div_lg {
+            width: 36%;
+
+            .index_input_group {
+                .index_label {
+                    width: 18%;
+                }
+
+                .index_input {
+                    width: 80.6%;
+                }
+            }
+        }
+
+        .contact_right_input_odd {
+            padding: 0 10px 0 0;
+        }
+
+        .contact_right_input_even {
+            padding: 0 10px 0 10px;
+        }
+
+        .btn-primary {
+            background-color: #2B85EA;
+            border-color: #2B85EA;
+        }
+    }
+}

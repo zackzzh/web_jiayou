@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="renderer" content="webkit|ie-comp|ie-stand" /> -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>甲由科技-小程序</title>
+    <link rel="stylesheet" href="./css/applet/applet.css">
+
+    <script src="./config/head_modules.js"></script>
+
+</head>
+
+<body>
+    <!-- 页头 -->
+    <div id="jy_head"></div>
+    <!-- 轮播 -->
+    <div class="deals_head_div">
+        <img class="deals_head_img" src="./img/applet/banner01.png" alt="">
+    </div>
+
+    <!-- 需求表单 -->
+    <div id="need_form"></div>
+
+    <!-- 开发优势 -->
+    <div class="app_daMain_div">
+        <div class="index_common_main_title_div">
+            <div class="index_common_title_img_div">
+                <img class="index_common_title_img" style="width: 500px;" src="./img/index/title_frame.png"
+                    alt="title.png" />
+            </div>
+            <div class="index_common_title_div">
+                <div class="index_common_enTitle">Development advantage</div>
+                <div class="index_common_title">小程序开发优势</div>
+            </div>
+        </div>
+        <div class="app_da_div">
+            <div class="app_da_item">
+                <div class="app_da_item_img_div">
+                    <img class="app_da_item_img" src="./img/applet/d_a01.png" alt="个性的功能配置.png" />
+                    <div class="app_da_item_img_title app_da_item_bg01">个性的功能配置</div>
+                </div>
+                <div class="app_da_item_modal_div app_da_item_bg01">
+                    <div class="app_da_item_modal_title">个性的功能配置</div>
+                    <div class="app_da_item_modal_content">
+                        拒绝框架模板套户，甲由科技为企业进行网络营销定位，量身定制打造个性创意小程序，帮助企业用户快速吸引精准流量，提高盈利转化率，让企业更加地省钱、省力、省心。
+                    </div>
+                    <!-- <div class="app_da_item_modal_btn">点击咨询</div> -->
+                </div>
+            </div>
+            <div class="app_da_item">
+                <div class="app_da_item_img_div">
+                    <img class="app_da_item_img" src="./img/applet/d_a02.png" alt="专业的研发团队.png" />
+                    <div class="app_da_item_img_title app_da_item_bg02">专业的研发团队</div>
+                </div>
+                <div class="app_da_item_modal_div app_da_item_bg02">
+                    <div class="app_da_item_modal_title">专业的研发团队</div>
+                    <div class="app_da_item_modal_content">
+                        专业资深的研发团队，1对1全程跟进项目进度，全方位满足您的营销需求。多年的小程序开发定制经验，超过5000+的企业合作优秀案例，100%完美交付率，源代码交付，为您的创意小程序定制保驾护航！
+                    </div>
+                    <!-- <div class="app_da_item_modal_btn">点击咨询</div> -->
+                </div>
+            </div>
+            <div class="app_da_item">
+                <div class="app_da_item_img_div">
+                    <img class="app_da_item_img" src="./img/website/d_a03.png" alt="强大的服务支撑.png" />
+                    <div class="app_da_item_img_title app_da_item_bg03">强大的服务支撑</div>
+                </div>
+                <div class="app_da_item_modal_div app_da_item_bg03">
+                    <div class="app_da_item_modal_title">强大的服务支撑</div>
+                    <div class="app_da_item_modal_content">
+                        上门洽谈定制需求，1对1免费为企业评估小程序定制价格，量身定制小程序开发方案，提供多种行业解决方案选择，为企业免费提供一年的运营服务，全方位地保障企业小程序运营开发，为用户创造更多的盈利价值。
+                    </div>
+                    <!-- <div class="app_da_item_modal_btn">点击咨询</div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="app_main_div">
+        <!-- 覆盖行业 -->
+        <div class="index_common_main_title_div">
+            <div class="index_common_title_img_div">
+                <img class="index_common_title_img" style="width: 500px;" src="./img/index/title_frame.png"
+                    alt="title.png" />
+            </div>
+            <div class="index_common_title_div">
+                <div class="index_common_enTitle">Development process</div>
+                <div class="index_common_title">开发流程</div>
+            </div>
+        </div>
+        <div class="app_ca_div">
+            <div class="app_ca_card_div">
+                <div class="app_ca_card_img_div">
+                    <img class="app_ca_card_img" src="./img/applet/flow01.png" alt="电商网站.png">
+                </div>
+                <div class="app_ca_card_content_div">
+                    <div class="app_ca_card_content">
+                        <span class="glyphicon glyphicon-menu-right app_ca_card_icon" aria-hidden="true"></span>
+                        <div class="app_ca_card_title">前期沟通</div>
+                        <div class="app_ca_card_elTitle">EARLY STAGE OF THE COMMUNICATION</div>
+                    </div>
+                </div>
+            </div>
+            <div class="app_ca_card_div">
+                <div class="app_ca_card_img_div">
+                    <img class="app_ca_card_img" src="./img/applet/flow02.png" alt="企业网站.png">
+                </div>
+                <div class="app_ca_card_content_div">
+                    <div class="app_ca_card_content">
+                        <span class="glyphicon glyphicon-menu-right app_ca_card_icon" aria-hidden="true"></span>
+                        <div class="app_ca_card_title">需求评估</div>
+                        <div class="app_ca_card_elTitle">A NEEDS ASSESSMENT</div>
+                    </div>
+                </div>
+            </div>
+            <div class="app_ca_card_div">
+                <div class="app_ca_card_img_div">
+                    <img class="app_ca_card_img" src="./img/applet/flow03.png" alt="响应式网站.png">
+                </div>
+                <div class="app_ca_card_content_div">
+                    <div class="app_ca_card_content">
+                        <div class="app_ca_card_title">产品设计</div>
+                        <div class="app_ca_card_elTitle">PRODUCT DESIGN</div>
+                        <span class="glyphicon glyphicon-menu-down app_ca_card_icon_down" aria-hidden="true"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="app_ca_card_div">
+                <div class="app_ca_card_img_div">
+                    <img class="app_ca_card_img" src="./img/applet/flow04.png" alt="门户网站.png">
+                </div>
+                <div class="app_ca_card_content_div">
+                    <div class="app_ca_card_content">
+                        <div class="app_ca_card_title">发布上线</div>
+                        <div class="app_ca_card_elTitle">PUBLISHED ONLINE</div>
+                    </div>
+                </div>
+            </div>
+            <div class="app_ca_card_div">
+                <div class="app_ca_card_img_div">
+                    <img class="app_ca_card_img" src="./img/applet/flow05.png" alt="营销网站.png">
+                </div>
+                <div class="app_ca_card_content_div">
+                    <div class="app_ca_card_content">
+                        <span class="glyphicon glyphicon-menu-left app_ca_card_icon_left" aria-hidden="true"></span>
+                        <div class="app_ca_card_title">测试</div>
+                        <div class="app_ca_card_elTitle">TEST</div>
+                    </div>
+                </div>
+            </div>
+            <div class="app_ca_card_div">
+                <div class="app_ca_card_img_div">
+                    <img class="app_ca_card_img" src="./img/applet/flow06.png" alt="手机网站.png">
+                </div>
+                <div class="app_ca_card_content_div">
+                    <div class="app_ca_card_content">
+                        <span class="glyphicon glyphicon-menu-left app_ca_card_icon_left" aria-hidden="true"></span>
+                        <div class="app_ca_card_title">技术开发</div>
+                        <div class="app_ca_card_elTitle">TECHNOLOGY DEVELOPMENT</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 案例墙 -->
+        <div class="index_common_main_title_div">
+            <div class="index_common_title_img_div">
+                <img class="index_common_title_img" src="./img/index/title_frame.png" alt="title.png" />
+            </div>
+            <div class="index_common_title_div">
+                <div class="index_common_enTitle">Classic case</div>
+                <div class="index_common_title">精品案例</div>
+            </div>
+        </div>
+        <div class="cases_options_div">
+            <a class="cases_option cases_option_active" href="#">美妆日化</a>
+            <a class="cases_option" href="#">外 卖</a>
+            <a class="cases_option" href="#">运 动</a>
+            <a class="cases_option" href="#">餐 饮</a>
+            <a class="cases_option" href="#">珠 宝</a>
+            <a class="cases_option" href="#">服 饰</a>
+            <a class="cases_option" href="#">鲜 花</a>
+            <a class="cases_option" href="#">游 戏</a>
+            <a class="cases_option" href="#">直 播</a>
+            <a class="cases_option" href="#">团 购</a>
+            <a class="cases_option" href="#">社 交</a>
+        </div>
+        <div class="index_cases_div">
+            <div class="index_case_div">
+                <div class="index_case_img_div" onclick="$go('case_info')">
+                    <img class="index_case_img" src="./img/index/case.png" alt="case.png" />
+                </div>
+                <!-- 链接模态框 -->
+                <div class="index_case_modal_div">
+                    <div class="index_case_modal">
+                        <div class="index_case_modal_title">东莞市三尚陈列展示道具有限公司官网</div>
+                        <div class="index_case_modal_content">
+                            三尚是一家专业为线下零售陈列展示市场客户提供定制,设计,开发,生产,运输,安装,售后一体化服务的企业。
+                            主要产品种类包括但不限于：店面形象设计与施工,店面灯光设计,独立展柜,橱窗展示,产品陈列道具,品牌营销视觉陈列等。
+                            公司拥有专业的研发设计团队,项目实施团队,完善的管理制度,出色的产品质量与服务,始终如一地坚守准时守信的原则。公司成立至今已在业内建立优秀口碑，并与一些海内外知名品牌建立了稳定友好的合作关系。如华为,三星,西铁城,飞亚达等。
+                        </div>
+                        <div class="index_case_modal_line">东莞市三尚陈列展示道具有限公司官网</div>
+                        <!-- <button type="button" class="btn btn-default">东莞市三尚陈列展示道具有限公司官网</button> -->
+                    </div>
+                </div>
+            </div>
+            <div class="index_case_div" onclick="$go('case_info')">
+                <div class="index_case_img_div">
+                    <img class="index_case_img" src="./img/index/case.png" alt="case.png" />
+                </div>
+                <!-- 二维码模态框 -->
+                <div class="index_case_modal_div">
+                    <div class="index_case_modal">
+                        <div class="index_case_modal_title">惠法律师所</div>
+                        <div class="index_case_modal_content">
+                            广东惠法律师事务所是广东省司法厅批准的综合性律师事务所；“政治坚定 忠诚公正 惠法服务
+                            关键靠谱”惠法以维护民主法制，追求社会公正为己任，以“高效务实”为宗旨。以信息集约化为方向;
+                            在各类诉讼及不动产处置，在社区法律服务、法律援助，在婚姻劳动，特别是在国内商事法律顾问方面，惠法以多种形式向客户提供及时、明确、中肯的法律分析和最佳方案。可向国内外客户提供全面的法律服务。
+                        </div>
+                        <div class="index_case_qr_main_div">
+                            <div class="index_case_qr_div">
+                                <img src="./img/footer/jy_qr.png" />
+                            </div>
+                            <div class="index_case_qr_div">
+                                <img src="./img/footer/jy_qr.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="index_case_div" onclick="$go('case_info')">
+                <div class="index_case_img_div">
+                    <img class="index_case_img" src="./img/index/case.png" alt="case.png" />
+                </div>
+            </div>
+            <div class="index_case_div" onclick="$go('case_info')">
+                <div class="index_case_img_div">
+                    <img class="index_case_img" src="./img/index/case.png" alt="case.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 联系我们 -->
+    <div id="contact_us"></div>
+    <!-- 页脚 -->
+    <div id="jy_footer"></div>
+
+    <script src="./config/body_modules.js"></script>
+</body>
+
+</html>

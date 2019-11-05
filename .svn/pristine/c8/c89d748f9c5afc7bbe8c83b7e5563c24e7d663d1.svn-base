@@ -1,0 +1,61 @@
+<div class="contact_main_div">
+    <div class="contact_div">
+        <div class="contact_left">
+            <div class="contact_us_div">
+                <div class="contact_us_title">联系我们</div>
+                <div class="contact_us_line"></div>
+                <div class="contact_us_elTitle">contact&nbsp;us</div>
+            </div>
+            <div class="contact_content">
+                <div>懒得看了？</div>
+                <div>
+                    直接找顾问吧!专业的服务，从来电咨询开始
+                </div>
+            </div>
+        </div>
+        <div class="contact_right">
+            <form>
+                <div class="contact_right_input_div contact_right_input_odd">
+                    <div class="contact_right_input_group">
+                        <label class="contact_right_label" for="contact_form_name">姓名/name：</label>
+                        <input type="text" class="contact_right_input input-lg" id="contact_form_name">
+                    </div>
+                </div>
+                <!-- <div class="contact_right_input_div contact_right_input_even">
+                    <div class="contact_right_input_group">
+                        <label class="contact_right_label" for="contact_form_wechat">微信/Wechat：</label>
+                        <input type="text" class="contact_right_input input-lg" id="contact_form_wechat">
+                    </div>
+                </div> -->
+                <div class="contact_right_input_div contact_right_input_odd">
+                    <div class="contact_right_input_group">
+                        <label class="contact_right_label" for="contact_form_phone">手机号/phone：</label>
+                        <input type="tel" class="contact_right_input input-lg" id="contact_form_phone">
+                    </div>
+                </div>
+                <!-- <div class="contact_right_input_div contact_right_input_even">
+                    <div class="contact_right_input_group">
+                        <label class="contact_right_label" for="contact_form_qq">QQ：</label>
+                        <input type="text" class="contact_right_input input-lg" id="contact_form_qq">
+                    </div>
+                </div> -->
+                <div class="contact_right_textarea_div">
+                    <label class="contact_right_label" for="contact_form_Message">留言/Message：</label>
+                    <textarea class="contact_right_Message" rows="6" id="contact_form_Message"></textarea>
+                </div>
+                <div class="contact_right_btn_div">
+                    <button type="submit" class="btn btn-default">立即预约</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- <div class="contact_bottom_line"></div> -->
+
+<script>
+    var contactBgUrl = ""
+    if (pathName === "app_develop" || pathName === "website" || pathName === "applet" || pathName === "mobile") {
+        contactBg = "url('../../img/app/contact_bg.png')";
+        $(".contact_main_div").css("background-image", contactBg);
+    }
+</script>

@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="renderer" content="webkit|ie-comp|ie-stand" /> -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>甲由科技-首页</title>
+    <link rel="stylesheet" href="./css/index/index.css">
+
+    <script src="./config/head_modules.js"></script>
+
+</head>
+
+<body>
+    <!-- 页头 -->
+    <div id="jy_head"></div>
+
+    <div class="index_main_div">
+        <!-- 轮播图 -->
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <!-- 轮播底下的点 -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <!-- 轮播图片 -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img class="carousel_img" src="./img/index/banner01.png" alt="banner01.png">
+                </div>
+                <div class="item">
+                    <img class="carousel_img" src="./img/index/banner02.png" alt="banner02.png">
+                </div>
+                <div class="item">
+                    <img class="carousel_img" src="./img/index/banner03.png" alt="banner03.png">
+                </div>
+                <div class="item">
+                    <img class="carousel_img" src="./img/index/banner04.png" alt="banner04.png">
+                </div>
+            </div>
+            <!-- Controls -->
+            <!-- 上一页 -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            </a>
+            <!-- 下一页 -->
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            </a>
+        </div>
+        <!-- 需求表单 -->
+        <div id="need_form"></div>
+        <!-- 中间1200区域 -->
+        <div class="index_content_main_div">
+            <!-- 热门服务 -->
+            <div class="index_common_main_title_div">
+                <div class="index_common_title_img_div">
+                    <img class="index_common_title_img" src="./img/index/title_frame.png" alt="title.png" />
+                </div>
+                <div class="index_common_title_div">
+                    <div class="index_common_enTitle">Popular services</div>
+                    <div class="index_common_title">热门服务</div>
+                </div>
+            </div>
+            <div class="index_hot_div">
+                <div class="index_hot_card">
+                    <div class="index_hot_bg_div">
+                        <div class="index_hot_bg_top index_hot_bg_top_color01"></div>
+                    </div>
+                    <div class="index_hot_content">
+                        <img class="index_hot_card_img index_hot_card_img01" src="./img/index/hot01.png"
+                            alt="APP定制.png" />
+                        <div class="index_hot_card_title">APP定制</div>
+                    </div>
+                    <div class="index_hot_card_modal index_hot_card_modal01">
+                        <div class="index_hot_card_modal_title">APP定制</div>
+                        <div class="index_hot_card_modal_content">
+                            甲由科技专注打造优质APP产品， 从用户体验出发，细致分析企业真正需要、完善企业APP产品的设计理念、完美打造行业内专业个性创意的APP产品定制，快速帮助企业引流盈利利，提升品牌转化。
+                        </div>
+                    </div>
+                </div>
+                <div class="index_hot_card">
+                    <div class="index_hot_bg_div">
+                        <div class="index_hot_bg_top index_hot_bg_top_color02"></div>
+                    </div>
+                    <div class="index_hot_content">
+                        <img class="index_hot_card_img index_hot_card_img02" src="./img/index/hot02.png"
+                            alt="网站建设.png" />
+                        <div class="index_hot_card_title">网站建设</div>
+                    </div>
+                    <div class="index_hot_card_modal index_hot_card_modal02">
+                        <div class="index_hot_card_modal_title">网站建设</div>
+                        <div class="index_hot_card_modal_content">
+                            甲由科技专业提供中高端企业官网、电商营销、行业门户、专题活动等网站建设服务，一对一上门洽谈用户需要，帮助企业在网络中全面展示品牌优势，扩大商业影响力。
+                        </div>
+                    </div>
+                </div>
+                <div class="index_hot_card">
+                    <div class="index_hot_bg_div">
+                        <div class="index_hot_bg_top index_hot_bg_top_color03"></div>
+                    </div>
+                    <div class="index_hot_content">
+                        <img class="index_hot_card_img index_hot_card_img03" src="./img/index/hot03.png"
+                            alt="移动开发.png" />
+                        <div class="index_hot_card_title">小程序开发</div>
+                    </div>
+                    <div class="index_hot_card_modal index_hot_card_modal03">
+                        <div class="index_hot_card_modal_title">小程序开发</div>
+                        <div class="index_hot_card_modal_content">
+                            移动智能终端用户激增，为企业带来广阔的商业契机。甲由科技量身定制，专业打造小程序定制、微信公众号定制等，为企业打造全新的一站式多元化移动营销解决方案。
+                        </div>
+                    </div>
+                </div>
+                <div class="index_hot_card">
+                    <div class="index_hot_bg_div">
+                        <div class="index_hot_bg_top index_hot_bg_top_color04"></div>
+                    </div>
+                    <div class="index_hot_content">
+                        <img class="index_hot_card_img index_hot_card_img04" src="./img/index/hot04.png"
+                            alt="运营推广.png" />
+                        <div class="index_hot_card_title">运营推广</div>
+                    </div>
+                    <div class="index_hot_card_modal index_hot_card_modal04">
+                        <div class="index_hot_card_modal_title">运营推广</div>
+                        <div class="index_hot_card_modal_content">
+                            甲由科技以多年的互联网技术沉淀、强大技术研发团队，专业地为企业提供SEM/SEO/新媒体等网络推广运营服务，打造强势的品牌效应，增强企业在网络中的有效宣传，提高最终的盈利转化。
+                        </div>
+                    </div>
+                </div>
+                <div class="index_hot_card">
+                    <div class="index_hot_bg_div">
+                        <div class="index_hot_bg_top index_hot_bg_top_color05"></div>
+                    </div>
+                    <div class="index_hot_content">
+                        <img class="index_hot_card_img index_hot_card_img05" src="./img/index/hot05.png"
+                            alt="配套服务.png" />
+                        <div class="index_hot_card_title">配套服务</div>
+                    </div>
+                    <div class="index_hot_card_modal index_hot_card_modal05">
+                        <div class="index_hot_card_modal_title">配套服务</div>
+                        <div class="index_hot_card_modal_content">
+                            甲由科技凭借精专的开发技术和崇高的服务要求，为企业提供网络推广、网站维护、域名注册、虚拟主机、企业邮箱、服务器租赁等互联网开发配套服务，一对一的优质服务为企业保驾护航。
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 精品案例 -->
+            <div class="index_common_main_title_div">
+                <div class="index_common_title_img_div">
+                    <img class="index_common_title_img" src="./img/index/title_frame.png" alt="title.png" />
+                </div>
+                <div class="index_common_title_div">
+                    <div class="index_common_enTitle">Classic case</div>
+                    <div class="index_common_title">精品案例</div>
+                </div>
+            </div>
+            <div class="index_cases_main_div">
+                <div class="index_cases_options_div">
+                    <!-- <div class="index_cases_option">全部</div> -->
+                    <a class="index_cases_option index_cases_option_active" href="#">APP开发</a>
+                    <a class="index_cases_option" href="#">网站建设</a>
+                    <a class="index_cases_option" href="#">小程序</a>
+                    <a class="index_cases_option" href="#">微信公众号</a>
+                    <a class="index_cases_option" href="#">智能社区</a>
+                    <a class="index_cases_option_more" onclick="$go('cases')" href="#">更多>></a>
+                </div>
+                <div class="index_cases_div">
+                    <div class="index_case_div" onclick="$go('case_info')">
+                        <div class="index_case_img_div">
+                            <img class="index_case_img" src="./img/index/case.png" alt="case.png" />
+                        </div>
+                        <!-- 链接模态框 -->
+                        <div class="index_case_modal_div">
+                            <div class="index_case_modal">
+                                <div class="index_case_modal_title">东莞市三尚陈列展示道具有限公司官网</div>
+                                <div class="index_case_modal_content">
+                                    三尚是一家专业为线下零售陈列展示市场客户提供定制,设计,开发,生产,运输,安装,售后一体化服务的企业。
+                                </div>
+                                <div class="index_case_modal_line">东莞市三尚陈列展示道具有限公司官网</div>
+                                <!-- <button type="button" class="btn btn-default">东莞市三尚陈列展示道具有限公司官网</button> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="index_case_div" onclick="$go('case_info')">
+                        <div class="index_case_img_div">
+                            <img class="index_case_img" src="./img/index/case.png" alt="case.png" />
+                        </div>
+                        <!-- 二维码模态框 -->
+                        <div class="index_case_modal_div">
+                            <div class="index_case_modal">
+                                <div class="index_case_modal_title">惠法律师所</div>
+                                <div class="index_case_modal_content">
+                                    广东惠法律师事
+                                </div>
+                                <div class="index_case_qr_main_div">
+                                    <div class="index_case_qr_div">
+                                        <img src="./img/footer/jy_qr.png" />
+                                    </div>
+                                    <div class="index_case_qr_div">
+                                        <img src="./img/footer/jy_qr.png" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="index_case_div" onclick="$go('case_info')">
+                        <div class="index_case_img_div">
+                            <img class="index_case_img" src="./img/index/case.png" alt="case.png" />
+                        </div>
+                    </div>
+                    <div class="index_case_div" onclick="$go('case_info')">
+                        <div class="index_case_img_div">
+                            <img class="index_case_img" src="./img/index/case.png" alt="case.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 行业动态 -->
+            <div class="index_common_main_title_div">
+                <div class="index_common_title_img_div">
+                    <img class="index_common_title_img" src="./img/index/title_frame.png" alt="title.png" />
+                </div>
+                <div class="index_common_title_div">
+                    <div class="index_common_enTitle">Industry dynamic</div>
+                    <div class="index_common_title">行业动态</div>
+                </div>
+            </div>
+            <div class="index_news_main_div">
+                <div class="index_news_div_div index_news_div_div_odd">
+                    <div class="index_news_div">
+                        <div class="index_news_main_title">
+                            <div class="index_news_title">行业新闻</div>
+                            <a class="index_news_more" href="#" onclick="$go('news')">更多>></a>
+                        </div>
+                        <div class="index_new_item">
+                            <a href="#">
+                                <div class="index_new_item_title" onclick="$go('new_info')">如何开发一款篮球APP</div>
+                                <div class="index_new_item_time">2019-06-27</div>
+                            </a>
+                        </div>
+                        <div class="index_new_item">
+                            <a href="#">
+                                <div class="index_new_item_title" onclick="$go('new_info')">如何开发一款篮球APP</div>
+                                <div class="index_new_item_time">2019-06-27</div>
+                            </a>
+                        </div>
+                        <div class="index_new_item">
+                            <a href="#">
+                                <div class="index_new_item_title" onclick="$go('new_info')">如何开发一款篮球APP</div>
+                                <div class="index_new_item_time">2019-06-27</div>
+                            </a>
+                        </div>
+                        <div class="index_new_item">
+                            <a href="#">
+                                <div class="index_new_item_title" onclick="$go('new_info')">如何开发一款篮球APP</div>
+                                <div class="index_new_item_time">2019-06-27</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="index_news_div_div index_news_div_div_even">
+                    <div class="index_news_div">
+                        <div class="index_news_main_title">
+                            <div class="index_news_title">公司动态</div>
+                            <a class="index_news_more" href="#" onclick="$go('news')">更多>></a>
+                        </div>
+                        <div class="index_new_item">
+                            <a href="#">
+                                <div class="index_new_item_title" onclick="$go('new_info')">如何开发一款篮球APP</div>
+                                <div class="index_new_item_time">2019-06-27</div>
+                            </a>
+                        </div>
+                        <div class="index_new_item">
+                            <a href="#">
+                                <div class="index_new_item_title" onclick="$go('new_info')">如何开发一款篮球APP如何开发一款篮球AP</div>
+                                <div class="index_new_item_time">2019-06-27</div>
+                            </a>
+                        </div>
+                        <div class="index_new_item">
+                            <a href="#">
+                                <div class="index_new_item_title" onclick="$go('new_info')">如何开发一款篮球APP</div>
+                                <div class="index_new_item_time">2019-06-27</div>
+                            </a>
+                        </div>
+                        <!-- <div class="index_new_item">
+                            <div class="index_new_item_title" onclick="$go('new_info')">如何开发一款篮球APP</div>
+                            <div class="index_new_item_time">2019-06-27</div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 联系我们 -->
+    <div id="contact_us"></div>
+    <!-- 页脚 -->
+    <div id="jy_footer"></div>
+
+    <script src="./config/body_modules.js"></script>
+</body>
+
+</html>

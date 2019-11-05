@@ -1,0 +1,60 @@
+.head_main_div {
+  min-width: 1200px;
+}
+.head_main_div .navbar {
+  min-height: auto;
+  margin: 0;
+}
+.head_main_div .navbar-brand {
+  padding: 0;
+  margin: 26px 0 0 0;
+}
+.head_main_div .navbar-header {
+  display: inline-block;
+}
+.head_main_div .head_div {
+  width: 1200px;
+}
+.head_main_div .head_div .head_logo_img {
+  width: auto;
+  height: 120%;
+}
+.head_main_div .head_div .head_nav_right {
+  float: right;
+  text-align: right;
+}
+.head_main_div .head_div .head_nav_right .head_phone {
+  margin-top: 26px;
+  padding: 0 20px;
+  font-family: SourceHanSansCN-Regular;
+  font-size: 16px;
+  font-weight: 400;
+  color: #005aae;
+}
+.head_main_div .head_div .head_nav_right .head_phone .head_phone_img {
+  width: 20px;
+  height: auto;
+  margin-right: 4px;
+}
+.head_main_div .head_div .head_nav_right li {
+  display: inline-block;
+}
+.head_main_div .head_div .head_nav_right li a {
+  padding: 18px 16px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: 500;
+  font-size: 18px;
+  color: #333333;
+}
+.head_main_div .head_div .head_nav_right .head_li:hover .head_a {
+  color: #2B85EA;
+  background: transparent;
+}
+.head_main_div .head_div .head_nav_right .head_li_two:hover .head_a_two {
+  color: #2B85EA;
+  background: transparent;
+}
+.head_main_div .head_div .head_nav_right .head_nav_active a {
+  color: #2B85EA;
+  background: transparent;
+}
